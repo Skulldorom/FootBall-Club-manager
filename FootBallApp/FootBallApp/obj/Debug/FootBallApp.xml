@@ -1,0 +1,171 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FootBallApp
+</name>
+</assembly>
+<members>
+<member name="T:FootBallApp.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FootBallApp.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FootBallApp.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.CoachLoginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.LineUpDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.MatchsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.MedicalDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.MembersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.CoachLoginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.LineUpRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.MatchsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.MedicalDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.MembersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.CoachLoginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.LineUpRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.MatchsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.MedicalDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSet.MembersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSetTableAdapters.CoachLoginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSetTableAdapters.LineUpTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSetTableAdapters.MatchsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSetTableAdapters.MedicalDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSetTableAdapters.MembersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FootBallApp.FootballlClubDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FootBallApp.FootballlClubDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FootBallApp.FootballlClubDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FootBallApp.FootballlClubDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FootBallApp.FootballlClubDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FootBallApp.FootballlClubDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FootBallApp.FootballlClubDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FootBallApp.FootballlClubDataSetTableAdapters.TableAdapterManager.UpdateAll(FootBallApp.FootballlClubDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FootBallApp.FootballlClubDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
